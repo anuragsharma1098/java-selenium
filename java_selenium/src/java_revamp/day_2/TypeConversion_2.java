@@ -1,4 +1,4 @@
-package java_revamp;
+package java_revamp.day_2;
 
 import java.util.Scanner;
 

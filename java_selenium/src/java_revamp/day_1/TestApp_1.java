@@ -1,4 +1,4 @@
-package java_revamp;
+package java_revamp.day_1;
 //import java.util.*;
 public class TestApp_1 {
     
