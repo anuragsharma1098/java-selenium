@@ -34,6 +34,8 @@ public class TypeConversion_2 {
         int i1 = Integer.parseInt(ss);
         System.out.println(i2+ss);
         System.out.println(i1 + i2);
+
+        scanner.close();
     }
 
 }
