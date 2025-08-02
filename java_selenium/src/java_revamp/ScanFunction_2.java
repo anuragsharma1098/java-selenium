@@ -15,6 +15,6 @@ public class ScanFunction_2 {
         System.out.println("Enter name:");
         String s = sc.next();
         System.out.println(s);
-        sc.close();
+        System.out.println(s.charAt(0));
     }
 }
