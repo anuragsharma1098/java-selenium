@@ -1,4 +1,4 @@
-package java_revamp;
+package java_revamp.day_2;
 
 import java.util.Scanner;
 
@@ -16,5 +16,6 @@ public class ScanFunction_2 {
         String s = sc.next();
         System.out.println(s);
         System.out.println(s.charAt(0));
+        sc.close();
     }
 }

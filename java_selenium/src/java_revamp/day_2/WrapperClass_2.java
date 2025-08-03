@@ -1,4 +1,4 @@
-package java_revamp;
+package java_revamp.day_2;
 
 public class WrapperClass_2 {
     public static void main(String[] args) {
