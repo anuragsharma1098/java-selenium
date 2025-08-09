@@ -9,7 +9,7 @@ public class palindrome {
         System.out.println("Enter a string to check if it is a palindrome:");
         String str = sc.nextLine();
         sc.close();
-        //String str = "madam";
+        // String str = "madam";
         if (isPalindrome(str)) {
             System.out.println(str + " is a palindrome.");
         } else {
@@ -30,5 +30,5 @@ public class palindrome {
         }
         return true;
     }
-    
+
 }

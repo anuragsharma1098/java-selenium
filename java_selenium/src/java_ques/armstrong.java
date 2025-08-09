@@ -8,7 +8,7 @@ public class armstrong {
         System.out.println("Enter a number to check if it is an Armstrong number:");
         int number = sc.nextInt();
         sc.close();
-        //int number = 153; // Example number to check
+        // int number = 153; // Example number to check
         System.out.println("Original number is: " + number);
         if (isArmstrong(number)) {
             System.out.println(number + " is an Armstrong number.");
@@ -30,5 +30,5 @@ public class armstrong {
 
         return sum == originalNum;
     }
-    
+
 }
