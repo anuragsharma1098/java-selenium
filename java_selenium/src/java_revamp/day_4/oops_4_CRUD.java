@@ -141,10 +141,13 @@ public class oops_4_CRUD {
                     System.out.println("-------------------------");
                     break;
                 case 5:
+                    sc.close();
                     System.exit(0);
                 default:
                     System.out.println("Invalid choice, please try again.");
             }
         } while (true);
+        // Close the scanner before exiting the main method
+        // sc.close(); // Not needed here as it's already closed in case 5
     }
 }
