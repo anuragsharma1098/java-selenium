@@ -2,8 +2,6 @@ package java_ques;
 
 import java.util.Scanner;
 
-import java.util.Scanner;
-
 public class gcd_lcd {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -12,6 +10,7 @@ public class gcd_lcd {
         int b = sc.nextInt();
         // int a = 56; // Example number 1
         // int b = 98; // Example number 2
+        sc.close();
 
         System.out.println("Original numbers are: " + a + " and " + b);
         System.out.println("GCD of " + a + " and " + b + " is: " + gcd(a, b));
