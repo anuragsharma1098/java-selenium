@@ -16,19 +16,32 @@ public class armstrong {
             System.out.println(number + " is not an Armstrong number.");
         }
     }
+    // public static boolean isArmstrong(int num) {
+    // int originalNum = num;
+    // int sum = 0;
+    // int digits = String.valueOf(num).length();
 
+    // while (num > 0) {
+    // int digit = num % 10;
+    // sum += Math.pow(digit, digits);
+    // num /= 10;
+    // }
+
+    // return sum == originalNum;
+    // }
     public static boolean isArmstrong(int num) {
-        int originalNum = num;
-        int sum = 0;
-        int digits = String.valueOf(num).length();
-
+        int onum = num;
+        int s = 0;
+        String str = String.valueOf(num);
+        int digits = str.length();
         while (num > 0) {
-            int digit = num % 10;
-            sum += Math.pow(digit, digits);
+            int d = num % 10;
+            s += Math.pow(d, digits);
             num /= 10;
         }
-
-        return sum == originalNum;
+        if (s == onum)
+            return true;
+        else
+            return false;
     }
-
 }
