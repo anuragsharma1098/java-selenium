@@ -1,4 +1,4 @@
-package java_revamp.day_4;
+package java_revamp.day_4_5;
 
 class Employee {
     String name;
