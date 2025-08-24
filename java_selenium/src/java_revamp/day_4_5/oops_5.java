@@ -28,6 +28,16 @@ class box {
     double volume() {
         return length * breadth * height;
     }
+
+    void display() {
+        System.out.println("This is box class");
+    }
+}
+
+class boxtype extends box {
+    void display() {
+        System.out.println("This is boxtype class");
+    }
 }
 
 public class oops_5 {
@@ -35,9 +45,19 @@ public class oops_5 {
         box b1 = new box();
         box b2 = new box(10, 20, 30);
         box b3 = new box(5);
+        boxtype b4 = new boxtype();
+        // Method Overloading -> same method name with different parameters
         System.out.println("Volume of b1: " + b1.volume());
         System.out.println("Volume of b2: " + b2.volume());
         System.out.println("Volume of b3: " + b3.volume());
+        b4.length = 10;
+        b4.breadth = 20;
+        b4.height = 30;
+        System.out.println("Volume of b4: " + b4.volume());
+        // Method Overriding -> same method name with same parameters in parent and child class
+        b1.display();
+        b4.display();
+
     }
 
 }
